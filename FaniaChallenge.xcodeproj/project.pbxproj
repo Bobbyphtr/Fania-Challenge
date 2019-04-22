@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93B9F010226DA0420097AB09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9F00F226DA0420097AB09 /* AppDelegate.swift */; };
+		93B9F012226DA0420097AB09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9F011226DA0420097AB09 /* ViewController.swift */; };
+		93B9F015226DA0420097AB09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B9F013226DA0420097AB09 /* Main.storyboard */; };
+		93B9F017226DA0430097AB09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B9F016226DA0430097AB09 /* Assets.xcassets */; };
+		93B9F01A226DA0430097AB09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B9F018226DA0430097AB09 /* LaunchScreen.storyboard */; };
+		93B9F025226DA0440097AB09 /* FaniaChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9F024226DA0440097AB09 /* FaniaChallengeTests.swift */; };
+		93B9F030226DA0440097AB09 /* FaniaChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9F02F226DA0440097AB09 /* FaniaChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93B9F021226DA0430097AB09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93B9F004226DA0420097AB09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B9F00B226DA0420097AB09;
+			remoteInfo = FaniaChallenge;
+		};
+		93B9F02C226DA0440097AB09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93B9F004226DA0420097AB09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B9F00B226DA0420097AB09;
+			remoteInfo = FaniaChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93B9F00C226DA0420097AB09 /* FaniaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaniaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B9F00F226DA0420097AB09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93B9F011226DA0420097AB09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93B9F014226DA0420097AB09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93B9F016226DA0430097AB09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93B9F019226DA0430097AB09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93B9F01B226DA0430097AB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B9F020226DA0430097AB09 /* FaniaChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaniaChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B9F024226DA0440097AB09 /* FaniaChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaniaChallengeTests.swift; sourceTree = "<group>"; };
+		93B9F026226DA0440097AB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B9F02B226DA0440097AB09 /* FaniaChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaniaChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B9F02F226DA0440097AB09 /* FaniaChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaniaChallengeUITests.swift; sourceTree = "<group>"; };
+		93B9F031226DA0440097AB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93B9F009226DA0420097AB09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B9F01D226DA0430097AB09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B9F028226DA0440097AB09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93B9F003226DA0420097AB09 = {
+			isa = PBXGroup;
+			children = (
+				93B9F00E226DA0420097AB09 /* FaniaChallenge */,
+				93B9F023226DA0440097AB09 /* FaniaChallengeTests */,
+				93B9F02E226DA0440097AB09 /* FaniaChallengeUITests */,
+				93B9F00D226DA0420097AB09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93B9F00D226DA0420097AB09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93B9F00C226DA0420097AB09 /* FaniaChallenge.app */,
+				93B9F020226DA0430097AB09 /* FaniaChallengeTests.xctest */,
+				93B9F02B226DA0440097AB09 /* FaniaChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93B9F00E226DA0420097AB09 /* FaniaChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				93B9F00F226DA0420097AB09 /* AppDelegate.swift */,
+				93B9F011226DA0420097AB09 /* ViewController.swift */,
+				93B9F013226DA0420097AB09 /* Main.storyboard */,
+				93B9F016226DA0430097AB09 /* Assets.xcassets */,
+				93B9F018226DA0430097AB09 /* LaunchScreen.storyboard */,
+				93B9F01B226DA0430097AB09 /* Info.plist */,
+			);
+			path = FaniaChallenge;
+			sourceTree = "<group>";
+		};
+		93B9F023226DA0440097AB09 /* FaniaChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				93B9F024226DA0440097AB09 /* FaniaChallengeTests.swift */,
+				93B9F026226DA0440097AB09 /* Info.plist */,
+			);
+			path = FaniaChallengeTests;
+			sourceTree = "<group>";
+		};
+		93B9F02E226DA0440097AB09 /* FaniaChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93B9F02F226DA0440097AB09 /* FaniaChallengeUITests.swift */,
+				93B9F031226DA0440097AB09 /* Info.plist */,
+			);
+			path = FaniaChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93B9F00B226DA0420097AB09 /* FaniaChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B9F034226DA0440097AB09 /* Build configuration list for PBXNativeTarget "FaniaChallenge" */;
+			buildPhases = (
+				93B9F008226DA0420097AB09 /* Sources */,
+				93B9F009226DA0420097AB09 /* Frameworks */,
+				93B9F00A226DA0420097AB09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaniaChallenge;
+			productName = FaniaChallenge;
+			productReference = 93B9F00C226DA0420097AB09 /* FaniaChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93B9F01F226DA0430097AB09 /* FaniaChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B9F037226DA0440097AB09 /* Build configuration list for PBXNativeTarget "FaniaChallengeTests" */;
+			buildPhases = (
+				93B9F01C226DA0430097AB09 /* Sources */,
+				93B9F01D226DA0430097AB09 /* Frameworks */,
+				93B9F01E226DA0430097AB09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93B9F022226DA0430097AB09 /* PBXTargetDependency */,
+			);
+			name = FaniaChallengeTests;
+			productName = FaniaChallengeTests;
+			productReference = 93B9F020226DA0430097AB09 /* FaniaChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93B9F02A226DA0440097AB09 /* FaniaChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B9F03A226DA0440097AB09 /* Build configuration list for PBXNativeTarget "FaniaChallengeUITests" */;
+			buildPhases = (
+				93B9F027226DA0440097AB09 /* Sources */,
+				93B9F028226DA0440097AB09 /* Frameworks */,
+				93B9F029226DA0440097AB09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93B9F02D226DA0440097AB09 /* PBXTargetDependency */,
+			);
+			name = FaniaChallengeUITests;
+			productName = FaniaChallengeUITests;
+			productReference = 93B9F02B226DA0440097AB09 /* FaniaChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93B9F004226DA0420097AB09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = BobbyPhtr;
+				TargetAttributes = {
+					93B9F00B226DA0420097AB09 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					93B9F01F226DA0430097AB09 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 93B9F00B226DA0420097AB09;
+					};
+					93B9F02A226DA0440097AB09 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 93B9F00B226DA0420097AB09;
+					};
+				};
+			};
+			buildConfigurationList = 93B9F007226DA0420097AB09 /* Build configuration list for PBXProject "FaniaChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93B9F003226DA0420097AB09;
+			productRefGroup = 93B9F00D226DA0420097AB09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93B9F00B226DA0420097AB09 /* FaniaChallenge */,
+				93B9F01F226DA0430097AB09 /* FaniaChallengeTests */,
+				93B9F02A226DA0440097AB09 /* FaniaChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93B9F00A226DA0420097AB09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B9F01A226DA0430097AB09 /* LaunchScreen.storyboard in Resources */,
+				93B9F017226DA0430097AB09 /* Assets.xcassets in Resources */,
+				93B9F015226DA0420097AB09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B9F01E226DA0430097AB09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B9F029226DA0440097AB09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93B9F008226DA0420097AB09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B9F012226DA0420097AB09 /* ViewController.swift in Sources */,
+				93B9F010226DA0420097AB09 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B9F01C226DA0430097AB09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B9F025226DA0440097AB09 /* FaniaChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93B9F027226DA0440097AB09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B9F030226DA0440097AB09 /* FaniaChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93B9F022226DA0430097AB09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93B9F00B226DA0420097AB09 /* FaniaChallenge */;
+			targetProxy = 93B9F021226DA0430097AB09 /* PBXContainerItemProxy */;
+		};
+		93B9F02D226DA0440097AB09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93B9F00B226DA0420097AB09 /* FaniaChallenge */;
+			targetProxy = 93B9F02C226DA0440097AB09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93B9F013226DA0420097AB09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B9F014226DA0420097AB09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		93B9F018226DA0430097AB09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B9F019226DA0430097AB09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93B9F032226DA0440097AB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93B9F033226DA0440097AB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93B9F035226DA0440097AB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85879C62RU;
+				INFOPLIST_FILE = FaniaChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xenoire.FaniaChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93B9F036226DA0440097AB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85879C62RU;
+				INFOPLIST_FILE = FaniaChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xenoire.FaniaChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93B9F038226DA0440097AB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85879C62RU;
+				INFOPLIST_FILE = FaniaChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xenoire.FaniaChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaniaChallenge.app/FaniaChallenge";
+			};
+			name = Debug;
+		};
+		93B9F039226DA0440097AB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85879C62RU;
+				INFOPLIST_FILE = FaniaChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xenoire.FaniaChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaniaChallenge.app/FaniaChallenge";
+			};
+			name = Release;
+		};
+		93B9F03B226DA0440097AB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85879C62RU;
+				INFOPLIST_FILE = FaniaChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xenoire.FaniaChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaniaChallenge;
+			};
+			name = Debug;
+		};
+		93B9F03C226DA0440097AB09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85879C62RU;
+				INFOPLIST_FILE = FaniaChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xenoire.FaniaChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaniaChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93B9F007226DA0420097AB09 /* Build configuration list for PBXProject "FaniaChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B9F032226DA0440097AB09 /* Debug */,
+				93B9F033226DA0440097AB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B9F034226DA0440097AB09 /* Build configuration list for PBXNativeTarget "FaniaChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B9F035226DA0440097AB09 /* Debug */,
+				93B9F036226DA0440097AB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B9F037226DA0440097AB09 /* Build configuration list for PBXNativeTarget "FaniaChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B9F038226DA0440097AB09 /* Debug */,
+				93B9F039226DA0440097AB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B9F03A226DA0440097AB09 /* Build configuration list for PBXNativeTarget "FaniaChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B9F03B226DA0440097AB09 /* Debug */,
+				93B9F03C226DA0440097AB09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93B9F004226DA0420097AB09 /* Project object */;
+}
