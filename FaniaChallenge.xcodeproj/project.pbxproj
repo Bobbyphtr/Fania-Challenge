@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9399AF3D2271BD2C001A315C /* SkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9399AF3C2271BD2C001A315C /* SkillViewController.swift */; };
+		9399AF3F2276D7F5001A315C /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9399AF3E2276D7F5001A315C /* ContainerViewController.swift */; };
+		9399AF7B22785414001A315C /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9399AF7A22785414001A315C /* StoryViewController.swift */; };
 		93B9F010226DA0420097AB09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9F00F226DA0420097AB09 /* AppDelegate.swift */; };
-		93B9F012226DA0420097AB09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9F011226DA0420097AB09 /* ViewController.swift */; };
+		93B9F012226DA0420097AB09 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9F011226DA0420097AB09 /* MasterViewController.swift */; };
 		93B9F015226DA0420097AB09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B9F013226DA0420097AB09 /* Main.storyboard */; };
 		93B9F017226DA0430097AB09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93B9F016226DA0430097AB09 /* Assets.xcassets */; };
 		93B9F01A226DA0430097AB09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93B9F018226DA0430097AB09 /* LaunchScreen.storyboard */; };
 		93B9F025226DA0440097AB09 /* FaniaChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9F024226DA0440097AB09 /* FaniaChallengeTests.swift */; };
 		93B9F030226DA0440097AB09 /* FaniaChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9F02F226DA0440097AB09 /* FaniaChallengeUITests.swift */; };
+		93B9F03E226DA92B0097AB09 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B9F03D226DA92B0097AB09 /* ProfileController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9399AF3C2271BD2C001A315C /* SkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillViewController.swift; sourceTree = "<group>"; };
+		9399AF3E2276D7F5001A315C /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		9399AF7A22785414001A315C /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
 		93B9F00C226DA0420097AB09 /* FaniaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaniaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B9F00F226DA0420097AB09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93B9F011226DA0420097AB09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93B9F011226DA0420097AB09 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		93B9F014226DA0420097AB09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93B9F016226DA0430097AB09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93B9F019226DA0430097AB09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,7 +53,7 @@
 		93B9F026226DA0440097AB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93B9F02B226DA0440097AB09 /* FaniaChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaniaChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93B9F02F226DA0440097AB09 /* FaniaChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaniaChallengeUITests.swift; sourceTree = "<group>"; };
-		93B9F031226DA0440097AB09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93B9F03D226DA92B0097AB09 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +105,15 @@
 			isa = PBXGroup;
 			children = (
 				93B9F00F226DA0420097AB09 /* AppDelegate.swift */,
-				93B9F011226DA0420097AB09 /* ViewController.swift */,
+				93B9F011226DA0420097AB09 /* MasterViewController.swift */,
 				93B9F013226DA0420097AB09 /* Main.storyboard */,
+				9399AF7A22785414001A315C /* StoryViewController.swift */,
+				9399AF3E2276D7F5001A315C /* ContainerViewController.swift */,
+				9399AF3C2271BD2C001A315C /* SkillViewController.swift */,
 				93B9F016226DA0430097AB09 /* Assets.xcassets */,
 				93B9F018226DA0430097AB09 /* LaunchScreen.storyboard */,
 				93B9F01B226DA0430097AB09 /* Info.plist */,
+				93B9F03D226DA92B0097AB09 /* ProfileController.swift */,
 			);
 			path = FaniaChallenge;
 			sourceTree = "<group>";
@@ -120,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				93B9F02F226DA0440097AB09 /* FaniaChallengeUITests.swift */,
-				93B9F031226DA0440097AB09 /* Info.plist */,
 			);
 			path = FaniaChallengeUITests;
 			sourceTree = "<group>";
@@ -256,8 +266,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93B9F012226DA0420097AB09 /* ViewController.swift in Sources */,
+				9399AF7B22785414001A315C /* StoryViewController.swift in Sources */,
+				93B9F012226DA0420097AB09 /* MasterViewController.swift in Sources */,
 				93B9F010226DA0420097AB09 /* AppDelegate.swift in Sources */,
+				9399AF3F2276D7F5001A315C /* ContainerViewController.swift in Sources */,
+				9399AF3D2271BD2C001A315C /* SkillViewController.swift in Sources */,
+				93B9F03E226DA92B0097AB09 /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
